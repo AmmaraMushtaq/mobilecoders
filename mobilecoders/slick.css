@@ -1,0 +1,222 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+slick-slide .slide-content {
+    margin: 0; /* Remove gutter */
+    padding: 50px 100px;
+    background: #fff;
+  }
+  
+  .slick-list {
+    margin: 20px 0;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    right: 0; /* Adjust position as needed */
+    background: #777;
+    border: none;
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    
+    &:before {
+      content: ">";
+      color: #fff;
+      font-size: 25px;
+    }
+  }
+  
+  .slick-prev {
+    left: 0; /* Adjust position as needed */
+    &:before {
+      content: "<";
+    }
+  }
+  
+  .slick-dots {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    
+    li {
+      display: inline-block;
+      
+      button {
+        transition: 0.2s background-color ease-in-out 0s;
+        border: none;
+        padding: 0;
+        color: transparent;
+        
+        width: 10px;
+        height: 10px;
+        background-color: #777;
+        margin-right: 10px;
+        border-radius: 50%;
+      }
+  
+      &.slick-active button {
+        background-color: #fff;
+      }
+    }
+  }
+  .your-element {
+    opacity: 1;
+    height: 364px;
+    transform: translate3d(0px, -156px, 0px);
+    transition: transform 300ms ease 0s;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .your-element {
+      /* New styles for screens up to 768px width */
+      height: 250px;
+      transform: translate3d(0px, -100px, 0px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .your-element {
+      /* New styles for screens up to 480px width */
+      height: 180px;
+      transform: translate3d(0px, -50px, 0px);
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* Modify the styles for smaller screens */
+    .headerContainer {
+        padding: 10px;
+    }
+
+    /* Example: Hide the logo in smaller screens */
+    .logoContainer {
+        display: none;
+    }
+
+    /* Example: Convert menu items to a responsive menu icon for smaller screens */
+    .desktopMenu {
+        display: none;
+    }
+
+    .resp-menu {
+        display: block;
+    }
+}
