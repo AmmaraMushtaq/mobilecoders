@@ -200,23 +200,4 @@ slick-slide .slide-content {
       transform: translate3d(0px, -50px, 0px);
     }
   }
-  @media only screen and (max-width: 768px) {
-    /* Modify the styles for smaller screens */
-    .headerContainer {
-        padding: 10px;
-    }
-
-    /* Example: Hide the logo in smaller screens */
-    .logoContainer {
-        display: none;
-    }
-
-    /* Example: Convert menu items to a responsive menu icon for smaller screens */
-    .desktopMenu {
-        display: none;
-    }
-
-    .resp-menu {
-        display: block;
-    }
-}
+  
