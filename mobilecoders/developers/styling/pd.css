@@ -1,0 +1,1145 @@
+.productDiscovery .fluidContainer,.productdiscovery_phase .fluidContainer {
+    padding-bottom: 82px;
+    border-bottom: 2px dashed #8d8d8d
+}
+
+.innerHeroSection h2,.pointsection h3 {
+    line-height: 50px;
+    -webkit-text-fill-color: transparent
+}
+
+.ProductDeliveryleft h4,.innerHeroSection h2,.pointsection h3 {
+    -webkit-text-fill-color: transparent
+}
+
+.fluidContainer {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.innerHeroSection h2 {
+    font-weight: 700;
+    padding-top: 30px;
+    font-size: 24px;
+    background: linear-gradient(94.78deg,#fff 1.7%,rgba(255,255,255,.44) 100.26%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center
+}
+
+.productDiscovery {
+    padding: 80px 0 0
+}
+
+.contentsection {
+    display: flex;
+    margin-top: 54px
+}
+
+.leftimage_section {
+    max-width: 100%;
+    width: 480px
+}
+
+.dualSection .dualSection--left,.rightcontent_section {
+    width: calc(100% - 480px)
+}
+
+.rightcontent_section {
+    padding-left: 40px
+}
+
+.rightcontent_para {
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: #fff;
+    gap: 20px
+}
+
+.Productdiscovery {
+    padding-top: 20px
+}
+
+.productdiscovery_phase .fluidContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.productdiscovery_phase {
+    margin-top: 82px
+}
+
+.pointsection {
+    width: calc(100% - 400px)
+}
+
+.rightimage_section {
+    width: 100%;
+    max-width: 400px
+}
+
+.Businesses {
+    padding-left: 94px
+}
+
+.pointsection h3 {
+    font-weight: 800;
+    font-size: 3rem;
+    background: linear-gradient(94.78deg,#fff 1.7%,rgba(255,255,255,.44) 100.26%);
+    -webkit-background-clip: text;
+    background-clip: text
+}
+
+.pointsection li {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    gap: 19px;
+    margin: 30px 0
+}
+
+.pointsection li .img-wrap {
+    width: 25px;
+    display: inline-block;
+    margin-top: 9px
+}
+
+.pointsection li .text-wrap {
+    width: calc(100% - 35px)
+}
+
+.pointsection p {
+    color: #0af;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 34px;
+    letter-spacing: 1px;
+    max-width: 680px
+}
+
+.business .fluidContainer {
+    flex-direction: row-reverse
+}
+
+.WhatMakesUs_aReliable {
+    margin-top: 120px
+}
+
+.WhatMakesUs_aReliable .fluidContainer {
+    display: flex;
+    padding: 0 20px;
+    border-bottom: 2px dashed #8d8d8d
+}
+
+.leftsectionWhatMakesUs_aReliables {
+    width: 50%;
+    padding-right: 47px
+}
+
+.leftsectionWhatMakesUs_aReliables .gradientHeading {
+    text-align: left;
+    line-height: 6rem
+}
+
+.leftsectionWhatMakesUs_aReliables p {
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 185%;
+    margin: 20px 0
+}
+
+.leftsectionWhatMakesUs_aReliables .textr {
+    text-align: left;
+    margin-top: 25px
+}
+
+.rightsectionWhatMakesUs_aReliables {
+    width: 50%
+}
+
+.rightsectionWhatMakesUs_aReliables li {
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    gap: 20px
+}
+
+.points {
+    display: inline-block;
+    width: 100%
+}
+
+.checkbox {
+    width: 40px
+}
+
+.rightsectionWhatMakesUs_aReliables h4 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 40px
+}
+
+.rightsectionWhatMakesUs_aReliables h3 {
+    font-weight: 900;
+    font-size: 1.8rem;
+    line-height: 185%;
+    color: #fff
+}
+
+.rightsectionWhatMakesUs_aReliables p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 24px
+}
+
+.get_quoteBtn {
+    max-width: 243px;
+    padding: 1.8rem .5rem!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 8px;
+    width: auto!important
+}
+
+.btnLeftQuote {
+    margin: 0
+}
+
+.ProductDiscoveryProcess {
+    margin-top: 50px;
+    padding: 0 20px
+}
+
+.headingWrapper p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 34px;
+    color: #fff
+}
+
+.ProductDiscoveryProcess p,.headingWrapper_para {
+    text-align: center
+}
+
+.headingWrapper h4 {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 185%;
+    color: #fff;
+    margin-top: 25px
+}
+
+.ProductDiscoveryProcess_cardwrapper {
+    display: flex;
+    margin-top: 52px;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.card {
+    width: calc(50% - 20px);
+    padding: 28px;
+    background: #1a1a1a;
+    border-radius: 10px
+}
+
+.cardheadingsection {
+    gap: 24px;
+    align-items: center;
+    display: flex
+}
+
+.cardheadingsection span {
+    max-width: 50px;
+    width: 100%
+}
+
+.cardheadingsection h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 25px;
+    color: #fff
+}
+
+.card p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding: 15px 0;
+    text-transform: capitalize;
+    color: #fff;
+    opacity: .8;
+    text-align: left
+}
+
+.ProductDiscoveryProcess .fluidContainer {
+    border-bottom: 2px dashed #8d8d8d;
+    padding-bottom: 84px
+}
+
+.ProductDeliveryProcess {
+    margin-top: 84px
+}
+
+.ProductDeliveryleft {
+    margin-top: 54px;
+    width: calc(100% - 350px)
+}
+
+.ProductDeliveryProcess_row {
+    display: flex;
+    align-items: center
+}
+
+.ProductDeliveryleft h4 {
+    background: linear-gradient(270.87deg,#2241d3 -61.75%,#fc5c7d -61.73%,#6f81f7 116.21%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 1.8rem;
+    padding-bottom: 6px;
+    margin-bottom: 7px;
+    border-bottom: 1px dashed #8d8d8d;
+    position: relative;
+    line-height: 20px
+}
+
+.ProductDeliveryleft li::before,.dualSection--left h3 {
+    background: linear-gradient(270.87deg,#2241d3 -61.75%,#fc5c7d -61.73%,#6f81f7 116.21%);
+    -webkit-text-fill-color: transparent
+}
+
+.ProductDeliveryleft p,.dualSection--left p {
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff
+}
+
+.ProductDeliveryleft ul {
+    flex-wrap: wrap;
+    display: flex
+}
+
+.ProductDeliveryleft p {
+    font-size: 15px;
+    line-height: 181%
+}
+
+.ProductDeliveryleft li {
+    max-width: 389px;
+    width: 100%;
+    padding-right: 45px;
+    margin: 45px 18px 0 0;
+    position: relative
+}
+
+.ProductDeliveryleft li::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-clip: text;
+    border-radius: 50%;
+    left: -14px;
+    top: 7px
+}
+
+.ProductDeliveryright {
+    width: 350px
+}
+
+.productDeliveryPhaseSection {
+    padding: 120px 0 80px
+}
+
+.productDeliveryPhaseSection .headingWrapper {
+    margin-bottom: 80px
+}
+
+.row {
+    flex-direction: row
+}
+
+.dualSection:last-child {
+    margin-bottom: 40px
+}
+
+.dualSection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 108px 0
+}
+
+.row .dualSection--left {
+    padding: 0 40px 0 0
+}
+
+.row-reverse .dualSection--left {
+    padding: 0 0 0 40px
+}
+
+.dualSection--left p {
+    font-size: 1.6rem;
+    line-height: 32px;
+    letter-spacing: .05em
+}
+
+.productDoubleSection .rightDescription.new {
+    padding: 0 20px
+}
+
+.dualSection--left h3 img {
+    position: absolute;
+    width: 72px;
+    left: -18px;
+    top: 50%;
+    translate: 0 -50%;
+    border-radius: 50%
+}
+
+.dualSection--left h3 {
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 2.4rem;
+    margin-bottom: 32px;
+    padding: 4px 4px 4px 57px;
+    position: relative;
+    line-height: 22px
+}
+
+.dualSection .dualSection--right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+.dualSection .dualSection--right {
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    border-radius: 10px
+}
+
+.row-reverse {
+    flex-direction: row-reverse
+}
+
+.callToAction__project {
+    padding: 100px 40px 80px
+}
+
+.callToAction__holder {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #393185;
+    padding: 40px;
+    position: relative;
+    min-height: 373px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px
+}
+
+.description--callAction {
+    width: 609px
+}
+
+.callAction__img {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -62px
+}
+
+.description--callAction h3 {
+    font-weight: 800;
+    font-size: 4.8rem;
+    line-height: 54px;
+    color: rgb(255 255 255);
+    letter-spacing: -1px
+}
+
+.description--callAction p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 20px 0 32px;
+    line-height: 30px;
+    color: rgb(255 255 255)
+}
+
+.description--callAction a {
+    display: inline-block;
+    padding: 14px 20px;
+    font-weight: 900;
+    font-size: 1.4rem;
+    line-height: 17px;
+    background: rgb(255 255 255);
+    text-transform: uppercase;
+    color: rgb(57 20 0);
+    border-radius: 6px
+}
+
+@media (max-width: 1280px) {
+    .ProductDeliveryProcess .fluidContainer,.WhatMakesUs_aReliable,.productdiscovery_phase {
+        padding:0 20px
+    }
+
+    .pagecontainer {
+        padding: 0 30px
+    }
+
+    .leftsectionWhatMakesUs_aReliables .gradientHeading {
+        text-align: left
+    }
+
+    .productdiscovery_phase .fluidContainer {
+        padding-bottom: 25px
+    }
+
+    .WhatMakesUs_aReliable .fluidContainer {
+        padding: 0 20px 25px
+    }
+
+    .WhatMakesUs_aReliable {
+        margin-top: 84px
+    }
+
+    .ProductDeliveryProcess {
+        margin-top: 56px
+    }
+
+    .dualSection {
+        margin: 83px 0
+    }
+}
+
+@media (max-width: 1140px) {
+    .callAction__img {
+        width:400px;
+        bottom: -16px
+    }
+
+    .callToAction__project {
+        padding: 60px 40px 100px
+    }
+
+    .productDiscovery {
+        padding: 30px 20px 0
+    }
+
+    .leftimage_section {
+        width: 400px
+    }
+
+    .rightcontent_section {
+        width: calc(100% - 400px);
+        padding-left: 40px
+    }
+
+    .rightsectionWhatMakesUs_aReliables .points {
+        width: calc(100% - 36px)
+    }
+
+    .rightsectionWhatMakesUs_aReliables .checkbox {
+        width: 36px
+    }
+
+    .rightsectionWhatMakesUs_aReliables li {
+        gap: 20px
+    }
+
+    .WhatMakesUs_aReliable,.productdiscovery_phase {
+        margin-top: 56px
+    }
+
+    .ProductDeliveryleft {
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .pointsection li {
+        font-size: 1.8rem;
+        line-height: 30px;
+        margin: 15px
+    }
+
+    .pointsection li .img-wrap {
+        margin-top: 6px
+    }
+
+    .ProductDeliveryProcess_row {
+        align-items: center;
+        flex-direction: column;
+        padding: 0 8px 0 2px
+    }
+
+    .leftsectionWhatMakesUs_aReliables .textr {
+        margin-top: 5px
+    }
+
+    .leftsectionWhatMakesUs_aReliables .gradientHeading {
+        line-height: 5rem
+    }
+
+    .ProductDeliveryleft li {
+        max-width: 47%;
+        width: 100%;
+        margin: 45px 0 0 24px
+    }
+
+    .headingWrapper p {
+        font-size: 1.4rem;
+        line-height: 27px
+    }
+
+    .ProductDeliveryleft p {
+        font-size: 1.4rem;
+        line-height: 2.5rem
+    }
+
+    .ProductDeliveryright {
+        margin-top: 72px
+    }
+
+    .card p {
+        font-size: 1.4rem;
+        line-height: 23px
+    }
+
+    .productDeliveryPhaseSection {
+        padding: 90px 0
+    }
+}
+
+@media (max-width: 991px) {
+    .callAction__img {
+        display:none
+    }
+
+    .callToAction__project {
+        padding: 40px 40px 100px
+    }
+
+    .callToAction__holder {
+        background: url("../assets/images/largeimages/callActionGradient.png") bottom right/cover no-repeat #393185
+    }
+
+    .rightcontent_para,.rightsectionWhatMakesUs_aReliables p {
+        font-size: 1.8rem
+    }
+
+    .productDiscovery .fluidContainer {
+        padding: 0 20px 50px
+    }
+
+    .productdiscovery_phase {
+        margin-top: 40px
+    }
+
+    .contentsection {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px
+    }
+
+    .dualSection,.row-reverse {
+        flex-direction: column
+    }
+
+    .leftimage_section {
+        width: 100%;
+        max-width: 400px
+    }
+
+    .rightcontent_section {
+        width: 100%;
+        padding-left: 0
+    }
+
+    .dualSection--left,.row .dualSection--left {
+        padding: 0 0 0 17px
+    }
+
+    .pointsection li .img-wrap {
+        margin-top: 4px
+    }
+
+    .rightsectionWhatMakesUs_aReliables h4 {
+        font-size: 2rem;
+        line-height: 1;
+        margin-top: 4px;
+        margin-bottom: 10px
+    }
+
+    .rightsectionWhatMakesUs_aReliables h3 {
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 1.6;
+        margin-bottom: 16px
+    }
+
+    .points-ul {
+        gap: 40px 26px
+    }
+
+    .left--contentArea p {
+        font-size: 1.6rem
+    }
+
+    .leftsectionWhatMakesUs_aReliables .textr {
+        margin-top: 25px
+    }
+
+    .dualSection .dualSection--right {
+        margin: 32px auto 0;
+        max-width: 480px;
+        width: 100%
+    }
+
+    .dualSection {
+        margin: 19px 0
+    }
+
+    .dualSection .dualSection--left {
+        width: 100%;
+        padding: 0 0 0 17px
+    }
+
+    .dualSection--left {
+        width: 100%
+    }
+
+    .leftsectionWhatMakesUs_aReliables .gradientHeading {
+        font-size: 3.6rem
+    }
+
+    .rightsectionWhatMakesUs_aReliables .checkbox {
+        width: 32px
+    }
+
+    .rightsectionWhatMakesUs_aReliables li {
+        gap: 16px
+    }
+
+    .leftsectionWhatMakesUs_aReliables {
+        width: 100%;
+        padding: 0
+    }
+
+    .rightsectionWhatMakesUs_aReliables {
+        width: 100%
+    }
+
+    .WhatMakesUs_aReliable .fluidContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 0 0 30px
+    }
+
+    .points {
+        display: inline-block;
+        max-width: 100%;
+        width: calc(100% - 52px)
+    }
+
+    .ProductDeliveryleft {
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .ProductDeliveryProcess_row {
+        align-items: center;
+        flex-direction: column;
+        padding: 0 8px 0 2px
+    }
+
+    .ProductDeliveryleft li {
+        max-width: 45%;
+        width: 100%;
+        padding: 0 20px 0 0;
+        margin: 45px 0 0 24px
+    }
+
+    .headingWrapper p {
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 23px;
+        margin: 0
+    }
+
+    .ProductDeliveryleft p {
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 27px;
+        text-transform: capitalize;
+        color: #fff;
+        margin-top: 8px
+    }
+
+    .ProductDeliveryright {
+        margin-top: 72px;
+        width: 100%;
+        max-width: 350px
+    }
+
+    .headingWrapper h4 {
+        margin-top: 0
+    }
+
+    .btnLeftQuote {
+        margin: 0 auto
+    }
+
+    .dualSection--left h3,.productDeliveryPhaseSection .headingWrapper {
+        margin-bottom: 16px
+    }
+
+    .productDeliveryPhaseSection {
+        padding: 70px 0 36px
+    }
+
+    .ProductDeliveryProcess,.ProductDiscoveryProcess,.WhatMakesUs_aReliable {
+        margin-top: 30px
+    }
+
+    .ProductDiscoveryProcess .fluidContainer {
+        padding-bottom: 30px
+    }
+
+    .pointsection h3 {
+        line-height: 40px
+    }
+}
+
+@media (max-width: 767px) {
+    .ProductDiscoveryProcess_cardwrapper {
+        flex-direction:column;
+        align-items: center
+    }
+
+    .card,.description--callAction {
+        width: 100%
+    }
+
+    .callToAction__project {
+        padding: 40px 40px 80px
+    }
+
+    .callToAction__holder {
+        min-height: initial
+    }
+
+    .productdiscovery_phase .fluidContainer,.row-reverse {
+        flex-direction: column
+    }
+
+    .pointsection {
+        width: 100%;
+        padding: 0
+    }
+
+    .dualSection--left,.row .dualSection--left {
+        padding: 0 0 0 17px
+    }
+
+    .rightimage_section {
+        margin: 0 auto
+    }
+
+    .productdiscovery_phase {
+        margin-top: 15px
+    }
+
+    .pointsection li {
+        font-size: 1.8rem
+    }
+
+    .dualSection .dualSection--right {
+        margin: 32px auto 0;
+        max-width: 480px;
+        width: 100%
+    }
+
+    .dualSection {
+        flex-direction: column;
+        margin: 23px 0
+    }
+
+    .dualSection .dualSection--left {
+        width: 100%;
+        padding: 0 0 0 17px
+    }
+
+    .dualSection--left {
+        width: 100%
+    }
+
+    .cardheadingsection h3 {
+        font-size: 1.9rem;
+        word-break: break-word
+    }
+
+    .cardheadingsection {
+        gap: 12px
+    }
+
+    .cardheadingsection img {
+        width: 40px
+    }
+
+    .leftsectionWhatMakesUs_aReliables .gradientHeading {
+        text-align: center;
+        line-height: 5rem
+    }
+
+    .ProductDiscoveryProcess_cardwrapper {
+        margin-top: 29px
+    }
+
+    .rightsectionWhatMakesUs_aReliables h3 {
+        margin-bottom: 0;
+        font-size: 2rem
+    }
+
+    .productDeliveryPhaseSection {
+        padding: 30px 0
+    }
+
+    .productDiscovery .fluidContainer {
+        padding: 0 20px 30px
+    }
+}
+
+@media (max-width: 576px) {
+    .pointsection p {
+        font-size:1.4rem;
+        line-height: 26px
+    }
+
+    .pointsection li {
+        margin: 19px 0;
+        font-size: 1.6rem;
+        line-height: 16px
+    }
+
+    .innerHeroSection h2 {
+        padding: 6px 37px 0;
+        font-size: 2rem;
+        line-height: 32px
+    }
+
+    .card {
+        width: 100%
+    }
+
+    .ProductDeliveryleft li {
+        margin: 24px 0 0 24px;
+        width: 100%;
+        max-width: 100%;
+        padding: 0
+    }
+
+    .ProductDeliveryProcess,.leftsectionWhatMakesUs_aReliables .textr {
+        margin-top: 20px
+    }
+
+    .ProductDeliveryleft h4 {
+        border-width: 1px
+    }
+
+    .headingWrapper h4 {
+        text-align: left;
+        padding-top: 18px
+    }
+
+    .headingWrapper p {
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 25px;
+        margin: 0
+    }
+
+    .get_quoteBtn {
+        max-width: 199px;
+        padding: 1.7rem .5rem!important;
+        gap: 3px
+    }
+
+    .WhatMakesUs_aReliable .fluidContainer {
+        padding: 0 0 16px
+    }
+
+    .ProductDiscoveryProcess .fluidContainer {
+        padding-bottom: 20px
+    }
+
+    .ProductDeliveryleft p {
+        margin-top: 0
+    }
+
+    .dualSection--left h3 {
+        margin-bottom: 10px
+    }
+
+    .rightsectionWhatMakesUs_aReliables p {
+        font-size: 1.6rem
+    }
+
+    .rightcontent_para {
+        font-size: 1.6rem;
+        line-height: 27px
+    }
+
+    .ProductDiscoveryProcess_cardwrapper {
+        margin-top: 24px
+    }
+
+    .pointsection li .img-wrap {
+        margin-top: -3px
+    }
+}
+
+@media (max-width: 480px) {
+    .description--callAction h3 {
+        font-size:24px;
+        line-height: 54px
+    }
+
+    .description--callAction p {
+        font-weight: 500;
+        font-size: 15px;
+        margin: 3px 0 28px
+    }
+
+    .callToAction__project {
+        padding: 0 20px 80px
+    }
+
+    .callToAction__holder {
+        padding: 24px 20px
+    }
+
+    .contentsection {
+        margin-top: 40px
+    }
+
+    .innerHeroSection h2 {
+        padding: 6px 37px 0;
+        font-size: 1.8rem;
+        line-height: 32px
+    }
+
+    .pointsection h3 {
+        font-size: 2.8rem
+    }
+
+    .pointsection p {
+        font-size: 1.4rem;
+        line-height: 26px
+    }
+
+    .pointsection li {
+        font-size: 1.4rem;
+        line-height: 13px;
+        margin: 15px 0
+    }
+
+    .gradientHeading {
+        text-align: left;
+        line-height: 34px
+    }
+
+    .rightsectionWhatMakesUs_aReliables h3 {
+        font-size: 2.2rem
+    }
+
+    .productDeliveryPhaseSection {
+        padding: 59px 0
+    }
+
+    .headingWrapper p,.leftsectionWhatMakesUs_aReliables .gradientHeading {
+        text-align: left
+    }
+
+    .btnLeftQuote {
+        margin: 0
+    }
+
+    .dualSection--left h3 {
+        margin-bottom: 24px
+    }
+
+    .dualSection .dualSection--left {
+        padding: 0
+    }
+
+    .dualSection:last-child {
+        margin-bottom: 20px!important
+    }
+
+    .dualSection {
+        margin: 0 0 80px!important
+    }
+
+    .dualSection--left p {
+        line-height: 27px
+    }
+
+    .row .dualSection--left {
+        padding: 0 0 0 6px
+    }
+
+    .WhatMakesUs_aReliable {
+        margin-top: 34px
+    }
+
+    .WhatMakesUs_aReliable,.productdiscovery_phase {
+        padding: 0 20px
+    }
+
+    .rightsectionWhatMakesUs_aReliables .checkbox {
+        width: 26px
+    }
+
+    .rightsectionWhatMakesUs_aReliables li {
+        gap: 10px;
+        padding: 15px 0
+    }
+
+    .leftsectionWhatMakesUs_aReliables p {
+        margin: 0 0 10px
+    }
+
+    .leftsectionWhatMakesUs_aReliables .textr {
+        margin-top: 20px
+    }
+
+    .rightsectionWhatMakesUs_aReliables .points {
+        width: calc(100% - 26px)
+    }
+
+    .rightsectionWhatMakesUs_aReliables p {
+        font-size: 1.6rem
+    }
+}
