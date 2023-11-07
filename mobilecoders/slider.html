@@ -1,58 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Your CSS styles and other meta tags -->
+    <style>
+        /* Your CSS code goes here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .toggle-menu {
+            display: none;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .menu {
+            display: none;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu li {
+            margin-bottom: 5px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu.active {
+            display: block;
+        }
+
+        @media screen and (max-width: 768px) {
+            .toggle-menu {
+                display: block;
+            }
+
+            .menu {
+                display: none;
+            }
+
+            .menu.active {
+                display: block;
+            }
+        }
+    </style>
 </head>
 <body>
 
-<section class="transformVisionSection hasGradientShadow--one" data-aos="zoom-in-down">
-    <img class="floatImage ls-is-cached lazyloaded"
-        src="https://mobilecoderz.com/assets/images/web-images/blackDiamond.webp"
-        data-src="https://mobilecoderz.com/assets/images/web-images/blackDiamond.webp" alt="black diamond">
-    <div class="fluidContainer">
-        <div class="headingWrapper">
-            <h2 class="gradientHeading">Years of Experience that Helps <br> Accelerate Your Business</h2>
-        </div>
-        <ul class="counterWrapper">
-            <li>
-                <article>
-                    <div class="counter-value" data-count="500">0</div>
-                    <img src="https://mobilecoderz.com/assets/images/smallimages/gradientplusIcon.png"
-                        class="ls-is-cached lazyloaded"
-                        data-src="https://mobilecoderz.com/assets/images/smallimages/gradientplusIcon.png"
-                        alt="plus icon">
-                </article>
-                <small>PROJECTS <br> COMPLETED</small>
-            </li>
-            <!-- Other counter elements -->
-        </ul>
-    </div>
-</section>
+<div class="toggle-menu" onclick="toggleMenu()">Menu</div>
+
+<ul class="menu" id="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
 
 <script>
-    // Retrieve all elements with the counter-value class
-    const counterElements = document.querySelectorAll('.counter-value');
-
-    // Iterate through each element and update their counts
-    counterElements.forEach(counter => {
-        const target = +counter.getAttribute('data-count');
-        let count = 0;
-
-        // Increment the count in an interval
-        const updateCounter = () => {
-            const increment = target / 100; // Adjust the increment for speed
-            count += increment;
-            if (count < target) {
-                counter.innerText = Math.ceil(count); // Update the element's text
-                setTimeout(updateCounter, 10); // Set the interval speed (in milliseconds)
-            } else {
-                counter.innerText = target; // Ensure final value is accurate
-            }
-        };
-
-        // Call the counter update function
-        updateCounter();
-    });
+    // Your JavaScript code goes here
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        menu.classList.toggle("active");
+    }
 </script>
 
 </body>

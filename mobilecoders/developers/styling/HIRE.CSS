@@ -404,7 +404,7 @@
   border-radius: 50%;
 }
 .rourcesection {
-  background: url("../assets/images/largeimages/resourceImage.webp")
+  background: url("https://mobilecoderz.com/assets/images/largeimages/resourceImage.webp")
     center/cover no-repeat;
   width: 100%;
   max-width: 940px;
@@ -424,7 +424,7 @@
   top: -54px;
   right: 31px;
   content: "";
-  background: url("../assets/images/largeimages/flyingImage.webp");
+  background: url("https://mobilecoderz.com/assets/images/largeimages/flyingImage.webp");
   width: 361px;
   height: 505px;
   z-index: 1;
