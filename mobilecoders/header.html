@@ -791,7 +791,7 @@
             
         <div class="fluidContainer" style="">
             
-            <article>
+            <article style="text-align: center; justify-content: center;">
                 
                 <h2 class="gradientHeading" style="">We are a team of</h2>
                 
@@ -816,35 +816,65 @@
                    
             </article>
             <div class="sliderWithtext" style="">
-                <div class="defineSlider slick-initialized slick-slider" style="">
-                    <div class="slick-list draggable">
+                <div class="defineSlider">
+   
+          
+                    
+                        <div class="slideItem transformImageWrapper slick-slide" data-slick-index="0"
+                        aria-hidden="true"
+                        style="width: 1159px; position: relative; left: 0px; top: 0px; z-index: 998;  transition: opacity 500ms linear 0s;"
+                        tabindex="-1">
+                        <img width="1160px" height="420" class="transformImage lazyloaded"
+                        src="https://mobilecoderz.com/assets/images/bannerimage1.webp"
+                        data-src="https://mobilecoderz.com/assets/images/bannerimage1.webp"
+                            alt="Office Work Environment Image" style="">
+                        </div>
+                        <div class="slideItem transformImageWrapper slick-slide" data-slick-index="0"
+                        aria-hidden="true"
+                        style="width: 1159px; position: relative; left: 0px; top: 0px; z-index: 998;  transition: opacity 500ms linear 0s;"
+                        tabindex="-1">
+                        <img width="1160px" height="420" class="transformImage lazyloaded"
+                        src="https://mobilecoderz.com/assets/images/bannerimage3.webp"
+                        data-src="https://mobilecoderz.com/assets/images/bannerimage3.webp"
+                            alt="Office Work Environment Image" style="">
+                        </div>
+               
+        </div>
+                <!-- <div class="defineSlider slick-initialized slick-slider" style="">
+                    <div>
                         <div class="slick-track" style="opacity: 1; width: 3477px;">
                             <div class="slideItem transformImageWrapper slick-slide" data-slick-index="0"
                                 aria-hidden="true"
-                                style="width: 1159px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms linear 0s;"
-                                tabindex="-1"><img width="1160" height="420" class="transformImage lazyloaded"
+                                style="width: 1159px; position: relative; left: 0px; top: 0px; z-index: 998;  transition: opacity 500ms linear 0s;"
+                                tabindex="-1">
+                                <img width="1160px" height="420" class="transformImage lazyloaded"
                                     src="https://mobilecoderz.com/assets/images/bannerimage1.webp"
                                     data-src="https://mobilecoderz.com/assets/images/bannerimage1.webp"
-                                    alt="Office Work Environment Image" style=""></div>
-                            <div class="slideItem transformImageWrapper slick-slide" data-slick-index="1"
+                                    alt="Office Work Environment Image" style="">
+                                </div>
+                                <div class="slideItem transformImageWrapper slick-slide" data-slick-index="0"
                                 aria-hidden="true"
-                                style="width: 1159px; position: relative; left: -1159px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms linear 0s;"
-                                tabindex="-1"><img width="1160" height="420" class="transformImage lazyloaded"
-                                    src="https://mobilecoderz.com/assets/images/bannerimage1.webp"
-                                    data-src="https://mobilecoderz.com/assets/images/bannerimage1.webp"
-                                    alt="Office Work Environment Image" style=""></div>
-                            <div class="slideItem transformImageWrapper slick-slide slick-current slick-active"
-                                data-slick-index="2" aria-hidden="false"
-                                style="width: 1159px; position: relative; left: -2318px; top: 0px; z-index: 999; opacity: 1;"
-                                tabindex="0"><img width="1160" height="420" class="transformImage lazyloaded"
-                                    src="https://mobilecoderz.com/assets/images/bannerimage3.webp"
-                                    data-src="https://mobilecoderz.com/assets/images/bannerimage3.webp"
-                                    alt="Office Work Environment Image" style=""></div>
+                                style="width: 1159px; position: relative; left: 0px; top: 0px; z-index: 998;  transition: opacity 500ms linear 0s;"
+                                tabindex="-1">
+                                <img width="1160px" height="420" class="transformImage lazyloaded"
+                                src="https://mobilecoderz.com/assets/images/bannerimage1.webp"
+                                data-src="https://mobilecoderz.com/assets/images/bannerimage1.webp"
+                                    alt="Office Work Environment Image" style="">
+                                </div>
+                                <div class="slideItem transformImageWrapper slick-slide" data-slick-index="0"
+                                aria-hidden="true"
+                                style="width: 1159px; position: relative; left: 0px; top: 0px; z-index: 998;  transition: opacity 500ms linear 0s;"
+                                tabindex="-1">
+                                <img width="1160px" height="420" class="transformImage lazyloaded"
+                                src="https://mobilecoderz.com/assets/images/bannerimage3.webp"
+                                data-src="https://mobilecoderz.com/assets/images/bannerimage3.webp"
+                                    alt="Office Work Environment Image" style="">
+                                </div>
                         </div>
                     </div>
 
 
-                </div>
+                </div> -->
                 <div class="defineText" style="">
                     <p style="">"Delivering excellence is our forte."</p>
                 </div>
@@ -1650,6 +1680,19 @@
                     autoplaySpeed: 2000, // Autoplay speed in milliseconds
                 });
             }); </script>-->
+            <script>
+    $(document).ready(function(){
+        $('.defineSlider').slick({
+            slidesToShow: 1, // Display one slide at a time
+            slidesToScroll: 1, // Scroll one slide at a time
+            vertical:true, // Display content vertically
+            autoplay: true, // Auto play the slider
+            autoplaySpeed: 2000, // Set the speed for auto sliding (in milliseconds)
+            arrows: false, // Hide arrow navigation
+            dots: false // Hide navigation dots
+        });
+    });
+</script>
     <script>
         $().ready(function () {
             $('.slick-carousel').slick({
